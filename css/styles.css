@@ -294,11 +294,8 @@ ul {
 }
 
 .aside-item {
-  flex-basis: calc(100% / 3 - 30px);
-}
-
-.aside li {
   position: relative;
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 .aside-img {
@@ -353,6 +350,7 @@ ul {
 }
 
 .team-list-item {
+  flex-basis: calc(100% / 4 - 30px);
   background-color: var(--white-color);
   border-radius: 4px;
   overflow: hidden;
@@ -362,7 +360,7 @@ ul {
 
 .team-list-img {
   display: block;
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .team-list-descr {
