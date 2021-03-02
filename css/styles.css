@@ -653,7 +653,6 @@ ul {
 
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--white-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-gallery-item-link:hover .overlay,
