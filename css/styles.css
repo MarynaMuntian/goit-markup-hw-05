@@ -293,12 +293,17 @@ ul {
   justify-content: space-between;
 }
 
+.aside-item {
+  flex-basis: calc(100% / 3 - 30px);
+}
+
 .aside li {
   position: relative;
 }
 
 .aside-img {
   display: block;
+  max-width: 100%;
 }
 
 .aside-img-box {
@@ -357,6 +362,7 @@ ul {
 
 .team-list-img {
   display: block;
+  /* max-width: 100%; */
 }
 
 .team-list-descr {
@@ -610,6 +616,10 @@ ul {
 .portfolio-gallery-item {
   flex-basis: calc(100% / 3 - 30px);
   margin: 0 30px 30px 0;
+}
+
+.portfolio-gallery-item img {
+  max-width: 100%;
 }
 
 .portfolio-gallery-item-link {
